@@ -4,6 +4,7 @@ parser.add_argument("-p", "--path", help="path to file of new line delimited str
 args = parser.parse_args()
 #Text pre-processing
 import nltk
+import re
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 #import matplotlib.pyplot as plt
